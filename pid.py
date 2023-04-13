@@ -23,7 +23,7 @@ class PidPublish(DTROS):
         self.prev_integral = 0
         self.previous_left = 0
         self.previous_right = 0
-    
+    #su ema hahahhahahaha
     def run(self):
         rate = rospy.Rate(15)
         while not rospy.is_shutdown():
